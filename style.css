@@ -1,0 +1,53 @@
+body{
+  background-color: #26252D
+}
+#box{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #9B6F7D;
+  width: 80%;
+  text-align: center;
+  color:#EFE9E6
+}
+#break{
+  float: left;
+ padding: 10%;
+ font-size: 25px;
+}
+#session{
+  float: right;
+ padding: 10%;
+  font-size: 25px;
+}
+#timer{
+  padding: 30%;
+  padding-bottom: 5%;
+  margin: 5%;
+  font-size: 25px;
+}
+button{
+  color: #9B6F7D;
+  background-color: #EFE9E6;
+  border: 2px solid #26252D;
+  margin: 3%;
+  padding: 5%;
+  width: 60%
+}
+@media only screen (max-width: 565px){
+  #box{
+    padding: 0px;
+  }
+  #break{
+    float: none;
+    padding: 0px;
+  }
+  #session{
+    float: none;
+    padding: 0px;
+  }
+  #timer{
+    padding: 0px;
+  }
+}
